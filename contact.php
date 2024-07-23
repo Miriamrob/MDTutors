@@ -5,6 +5,7 @@ if (isset($_POST['submit'])) {
  $subject = $_POST['subject'];
  $mail = $_POST['mail'];
  $message = $_POST['message'];
+ $number = $_POST['contact number'];
 
 
  $mailTo = "mirirobledo@gmail.com";
